@@ -1,0 +1,130 @@
+body {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+.container {
+    max-width: 760px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 4rem;
+}
+
+.header img {
+    width: 2.7em;
+}
+
+.header h1 img {
+    width: 4rem;
+    vertical-align: -0.5rem;
+    margin-right: 1.5rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: .9rem;
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 2.6rem;
+    color: #555;
+    font-weight: 200;
+    letter-spacing: 0;
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: 0;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.7rem;
+    letter-spacing: 0;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
+ol, ul {
+    margin-left: 3rem;
+    margin-top: -1rem;
+    list-style-position: outside;
+}
+
+svg {
+    margin-bottom: 2.5rem;
+}
+
+.docs-section img {
+    width: 100%;
+}
+
+.final-section {
+    border-top: 1px dotted #ccc;
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+.footer {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 10px;
+    color: #999;
+    border-top: 1px dotted #ccc;
+    padding-top: 4rem;
+}
+
+.highlight {
+/*    background-color: lemonchiffon; */
+}
+
+.ui-slideshow {
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.slick-next {
+    right: -40px;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #666;
+}
+
+.slick-slide {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.slick-dots {
+    bottom: -60px;
+    margin-left: 0;
+}
+
+/* Larger than phone */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+}
