@@ -85,6 +85,10 @@ svg {
     padding-top: 4rem;
 }
 
+.svg {
+    position: static;
+}
+
 .highlight {
 /*    background-color: lemonchiffon; */
 }
