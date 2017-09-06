@@ -1,7 +1,43 @@
 @import "customize";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.foo {
-    color: red;
-    font-weight: bold;
+$color-1: #56a7ea;
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+}
+
+.tile {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    &.dark-background {
+        h1, h2, p {
+            color: $white;
+        }
+    }
+}
+
+.navbar-container {
+    background-color: $color-1;
+}
+
+.tile-1 {
+    background-color: $color-1;
+    padding-top: 3rem;
+    
+    h2 {
+        font-weight: 300;
+    }
+    
+    img {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.tile-3 {
+    background-color: #5cc9af;
 }
