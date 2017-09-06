@@ -5,8 +5,15 @@ $color-1: #56a7ea;
 
 .navbar-brand {
     text-transform: uppercase;
+    font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: 0.4rem;
+    
+    .icon {
+        font-size: 26px;
+        vertical-align: -4px;
+        margin-right: 6px;
+    }
 }
 
 .tile {
