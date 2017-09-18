@@ -3,6 +3,10 @@
 
 $color-1: #56a7ea;
 
+h1 {
+    font-weight: 600;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -51,6 +55,15 @@ $color-1: #56a7ea;
     
 }
 
+.tile-2, .tile-4, .tile-6 {
+    background-color: white;
+//    background-color: #f9f9f9;
+}
+
 .tile-3 {
     background-color: #5cc9af;
+}
+
+.tile-5 {
+    background-color: rgb(195, 122, 227);
 }

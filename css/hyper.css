@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2rem; }
+  font-size: 2.5rem; }
 
 h2, .h2 {
   font-size: 1.2rem; }
@@ -5988,6 +5988,9 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+h1 {
+  font-weight: 600; }
+
 .navbar-brand {
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -6019,7 +6022,13 @@ a.text-dark:focus, a.text-dark:hover {
     margin-top: 3rem;
     margin-bottom: 1rem; }
 
+.tile-2, .tile-4, .tile-6 {
+  background-color: white; }
+
 .tile-3 {
   background-color: #5cc9af; }
+
+.tile-5 {
+  background-color: #c37ae3; }
 
 /*# sourceMappingURL=hyper.css.map */
