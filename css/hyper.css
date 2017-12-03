@@ -5991,32 +5991,29 @@ a.text-dark:focus, a.text-dark:hover {
 h1 {
   font-weight: 600; }
 
-h2, p, li {
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px; }
+
+p, li {
   font-size: 24px;
   font-weight: 200; }
 
-h2 {
-  font-weight: 600; }
-
-.navbar-container {
-  background-color: #56a7ea; }
+.nav-and-tile-container {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%); }
 
 .navbar {
   padding-top: 20px; }
-  .navbar .navbar-brand {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    font-weight: 300;
-    letter-spacing: 0.4rem; }
-    .navbar .navbar-brand .icon {
-      font-size: 26px;
-      vertical-align: -4px;
-      margin-right: 6px; }
-    .navbar .navbar-brand img {
-      height: 36px;
-      vertical-align: -4px; }
-  .navbar .btn:hover {
-    color: #56a7ea; }
+  .navbar .navbar-brand img {
+    height: 36px;
+    vertical-align: -4px; }
+  .navbar .navbar-nav .nav-link {
+    font-size: 16px; }
+  .navbar .btn {
+    font-size: 16px; }
+    .navbar .btn:hover {
+      color: #09203f; }
 
 .tile {
   padding-top: 40px;
@@ -6025,13 +6022,17 @@ h2 {
     color: #fff; }
 
 .tile-1 {
-  background-color: #56a7ea;
-  padding-top: 3rem;
-  margin-bottom: 40px; }
+  padding-top: 40px;
+  padding-bottom: 0; }
   .tile-1 h2 {
-    font-weight: 300; }
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 0; }
   .tile-1 img {
-    margin-top: 3rem;
-    margin-bottom: 1rem; }
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+.tile-3 {
+  background-color: #f9f9f9; }
 
 /*# sourceMappingURL=hyper.css.map */
