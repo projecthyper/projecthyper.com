@@ -6006,14 +6006,21 @@ p, li {
 .navbar {
   padding-top: 20px; }
   .navbar .navbar-brand img {
-    height: 36px;
-    vertical-align: -4px; }
+    height: 30px;
+    vertical-align: -2px; }
   .navbar .navbar-nav .nav-link {
-    font-size: 16px; }
+    font-size: 17px;
+    padding-left: 16px;
+    padding-right: 16px; }
+    .navbar .navbar-nav .nav-link:last-of-type {
+      padding-right: 0; }
   .navbar .btn {
-    font-size: 16px; }
+    font-size: 17px;
+    padding: 4px 15px; }
     .navbar .btn:hover {
       color: #09203f; }
+  .navbar .sign-in-button-form {
+    margin-right: 10px; }
 
 .tile {
   padding-top: 40px;
