@@ -10,13 +10,13 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
     margin-top: 30px;
 }
 
 p, li {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -95,7 +95,7 @@ p, li {
 }
 
 .tile-1 {
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 20px;
     
     h2 {
@@ -111,6 +111,7 @@ p, li {
 }
 
 .tile-2 {
+    padding-top: 90px;
     border-bottom: 1px dotted #ccc;
 }
 
