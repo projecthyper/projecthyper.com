@@ -6006,8 +6006,8 @@ p, li {
 .navbar {
   padding-top: 20px; }
   .navbar .navbar-brand img {
-    height: 30px;
-    vertical-align: -2px; }
+    height: 24px;
+    vertical-align: -5px; }
   .navbar .navbar-nav .nav-link {
     font-size: 17px;
     padding-left: 16px;
