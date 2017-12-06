@@ -12,12 +12,21 @@ h1 {
 h2 {
     font-size: 28px;
     font-weight: 600;
-    margin-top: 30px;
+//    margin-top: 30px;
+    margin-top: 16px;
 }
 
 p, li {
     font-size: 20px;
     font-weight: 300;
+}
+
+p {
+    margin-bottom: 16px;
+    
+    &.before-list {
+        margin-bottom: 6px;
+    }
 }
 
 .blue-stripes {
@@ -121,19 +130,19 @@ p, li {
 }
 
 .tile-2 {
-//    border-bottom: 1px dotted #ccc;
-    padding-top: 120px;
-    padding-bottom: 70px;
+    border-bottom: 1px dotted #ccc;
+    padding-top: 100px;
+    padding-bottom: 40px;
     
-    p {
-        font-size: 28px;
-        margin-bottom: 34px;
-    }
+//    p {
+//        font-size: 28px;
+//        margin-bottom: 34px;
+//    }
 }
 
 .tile-3 {
-    background-color: #f9f9f9;
-//    border-bottom: 1px dotted #ccc;
+//    background-color: #f9f9f9;
+    border-bottom: 1px dotted #ccc;
 }
 
 .tile-4 {
@@ -141,6 +150,6 @@ p, li {
 }
 
 .tech-stack-diagram {
-    margin-top: 26px;
-    width: 400px;
+    margin-top: 46px;
+    width: 340px;
 }

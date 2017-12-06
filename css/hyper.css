@@ -5994,11 +5994,16 @@ h1 {
 h2 {
   font-size: 28px;
   font-weight: 600;
-  margin-top: 30px; }
+  margin-top: 16px; }
 
 p, li {
   font-size: 20px;
   font-weight: 300; }
+
+p {
+  margin-bottom: 16px; }
+  p.before-list {
+    margin-bottom: 6px; }
 
 .blue-stripes {
   width: 100%;
@@ -6053,20 +6058,18 @@ p, li {
     margin-bottom: 40px; }
 
 .tile-2 {
-  padding-top: 120px;
-  padding-bottom: 70px; }
-  .tile-2 p {
-    font-size: 28px;
-    margin-bottom: 34px; }
+  border-bottom: 1px dotted #ccc;
+  padding-top: 100px;
+  padding-bottom: 40px; }
 
 .tile-3 {
-  background-color: #f9f9f9; }
+  border-bottom: 1px dotted #ccc; }
 
 .tile-4 {
   border-bottom: 1px dotted #ccc; }
 
 .tech-stack-diagram {
-  margin-top: 26px;
-  width: 400px; }
+  margin-top: 46px;
+  width: 340px; }
 
 /*# sourceMappingURL=hyper.css.map */
