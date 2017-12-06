@@ -2,25 +2,34 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 //$color-1: #56a7ea;
-$color-1: #09203f;
+
+$nav-font-size: 17px;
 
 h1 {
     font-weight: 600;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
     margin-top: 30px;
 }
 
 p, li {
-    font-size: 24px;
-    font-weight: 200;
+    font-size: 22px;
+    font-weight: 300;
 }
 
 .nav-and-tile-container {
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(15deg, #09203f 0%, #537895 100%);
+//    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+//    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+//    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+//    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+//    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+//    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+//    background-color: #56a7ea;
 }
 
 .container {
@@ -28,8 +37,6 @@ p, li {
 }
 
 .navbar {
-    padding-top: 20px;
-    
     .navbar-brand {        
         img {
             height: 24px;
@@ -38,7 +45,7 @@ p, li {
     }
     
     .navbar-nav .nav-link {
-        font-size: 17px;
+        font-size: $nav-font-size;
         padding-left: 16px;
         padding-right: 16px;
         
@@ -48,11 +55,11 @@ p, li {
     }
     
     .btn {
-        font-size: 17px;
+        font-size: $nav-font-size;
         padding: 4px 15px;
         
         &:hover {
-            color: $color-1;
+            color: #09203f;
         }
     }
     
@@ -73,8 +80,8 @@ p, li {
 }
 
 .tile-1 {
-    padding-top: 40px;
-    padding-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
     
     h2 {
         font-size: 24px;
@@ -93,5 +100,13 @@ p, li {
 }
 
 .tile-3 {
-    background-color: #f9f9f9;
+//    background-color: #f9f9f9;
+//    background: url(../images/diagonal-noise.png) repeat center center fixed;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+.tech-stack-diagram {
+    margin-top: 26px;
+    width: 400px;
 }

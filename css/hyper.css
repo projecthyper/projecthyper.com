@@ -2369,7 +2369,7 @@ tbody.collapse.show {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 1rem; }
+  padding: 20px 1rem; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: flex;
@@ -5992,35 +5992,34 @@ h1 {
   font-weight: 600; }
 
 h2 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 600;
   margin-top: 30px; }
 
 p, li {
-  font-size: 24px;
-  font-weight: 200; }
+  font-size: 22px;
+  font-weight: 300; }
 
 .nav-and-tile-container {
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%); }
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-image: linear-gradient(15deg, #09203f 0%, #537895 100%); }
 
-.navbar {
-  padding-top: 20px; }
-  .navbar .navbar-brand img {
-    height: 24px;
-    vertical-align: -5px; }
-  .navbar .navbar-nav .nav-link {
-    font-size: 17px;
-    padding-left: 16px;
-    padding-right: 16px; }
-    .navbar .navbar-nav .nav-link:last-of-type {
-      padding-right: 0; }
-  .navbar .btn {
-    font-size: 17px;
-    padding: 4px 15px; }
-    .navbar .btn:hover {
-      color: #09203f; }
-  .navbar .sign-in-button-form {
-    margin-right: 10px; }
+.navbar .navbar-brand img {
+  height: 24px;
+  vertical-align: -5px; }
+.navbar .navbar-nav .nav-link {
+  font-size: 17px;
+  padding-left: 16px;
+  padding-right: 16px; }
+  .navbar .navbar-nav .nav-link:last-of-type {
+    padding-right: 0; }
+.navbar .btn {
+  font-size: 17px;
+  padding: 4px 15px; }
+  .navbar .btn:hover {
+    color: #09203f; }
+.navbar .sign-in-button-form {
+  margin-right: 10px; }
 
 .tile {
   padding-top: 40px;
@@ -6029,8 +6028,8 @@ p, li {
     color: #fff; }
 
 .tile-1 {
-  padding-top: 40px;
-  padding-bottom: 0; }
+  padding-top: 50px;
+  padding-bottom: 20px; }
   .tile-1 h2 {
     font-size: 24px;
     font-weight: 300;
@@ -6040,6 +6039,11 @@ p, li {
     margin-bottom: 40px; }
 
 .tile-3 {
-  background-color: #f9f9f9; }
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc; }
+
+.tech-stack-diagram {
+  margin-top: 26px;
+  width: 400px; }
 
 /*# sourceMappingURL=hyper.css.map */
