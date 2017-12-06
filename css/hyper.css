@@ -6000,9 +6000,14 @@ p, li {
   font-size: 22px;
   font-weight: 300; }
 
-.nav-and-tile-container {
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-  background-image: linear-gradient(15deg, #09203f 0%, #537895 100%); }
+#stripes {
+  width: 100%;
+  height: 955px;
+  overflow: hidden;
+  transform: skewY(-3deg);
+  transform-origin: 0;
+  background: linear-gradient(150deg, #1d7fd0 15%, #90c9d4 70%, #56a7ea 94%);
+  position: absolute; }
 
 .navbar .navbar-brand img {
   height: 24px;
@@ -6017,7 +6022,7 @@ p, li {
   font-size: 17px;
   padding: 4px 15px; }
   .navbar .btn:hover {
-    color: #09203f; }
+    color: #3e84ce; }
 .navbar .sign-in-button-form {
   margin-right: 10px; }
 
@@ -6028,7 +6033,7 @@ p, li {
     color: #fff; }
 
 .tile-1 {
-  padding-top: 50px;
+  padding-top: 90px;
   padding-bottom: 20px; }
   .tile-1 h2 {
     font-size: 24px;
@@ -6038,8 +6043,13 @@ p, li {
     margin-top: 40px;
     margin-bottom: 40px; }
 
+.tile-2 {
+  border-bottom: 1px dotted #ccc; }
+
 .tile-3 {
-  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc; }
+
+.tile-4 {
   border-bottom: 1px dotted #ccc; }
 
 .tech-stack-diagram {
