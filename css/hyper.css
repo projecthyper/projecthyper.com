@@ -5992,7 +5992,7 @@ h1 {
   font-weight: 600; }
 
 h2 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   margin-top: 16px; }
 
@@ -6041,8 +6041,8 @@ p {
   margin-right: 10px; }
 
 .tile {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   .tile.dark-background h1, .tile.dark-background h2, .tile.dark-background p {
     color: #fff; }
 
@@ -6059,8 +6059,7 @@ p {
 
 .tile-2 {
   border-bottom: 1px dotted #ccc;
-  padding-top: 100px;
-  padding-bottom: 40px; }
+  padding-top: 100px; }
 
 .tile-3 {
   border-bottom: 1px dotted #ccc; }
@@ -6068,8 +6067,10 @@ p {
 .tile-4 {
   border-bottom: 1px dotted #ccc; }
 
+.overview-diagram {
+  width: 453px; }
+
 .tech-stack-diagram {
-  margin-top: 46px;
-  width: 340px; }
+  width: 400px; }
 
 /*# sourceMappingURL=hyper.css.map */

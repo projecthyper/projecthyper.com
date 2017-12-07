@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
 //    margin-top: 30px;
     margin-top: 16px;
@@ -103,8 +103,8 @@ p {
 }
 
 .tile {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     &.dark-background {
         h1, h2, p {
@@ -132,7 +132,6 @@ p {
 .tile-2 {
     border-bottom: 1px dotted #ccc;
     padding-top: 100px;
-    padding-bottom: 40px;
     
 //    p {
 //        font-size: 28px;
@@ -149,7 +148,11 @@ p {
     border-bottom: 1px dotted #ccc;
 }
 
-.tech-stack-diagram {
-    margin-top: 46px;
-    width: 340px;
+.overview-diagram {
+    width:453px;
 }
+
+.tech-stack-diagram {
+    width: 400px;
+}
+
