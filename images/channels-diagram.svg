@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="633 246 407 398" width="407pt" height="398pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2017-12-08 18:55:25 +0000</dc:date>
+  </metadata>
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Proxima Nova" font-size="11" panose-1="2 0 5 6 3 0 0 2 0 4" units-per-em="1000" underline-position="-123" underline-thickness="20" slope="0" x-height="483" cap-height="667" ascent="790.0016" descent="-210.00043" font-weight="500">
+      <font-face-src>
+        <font-face-name name="ProximaNova-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="405.6103" height="396.81286"/>
+    <g>
+      <title>Layer 1</title>
+      <circle cx="946.9063" cy="309.40625" r="62.40635" fill="white"/>
+      <circle cx="946.9063" cy="309.40625" r="62.40635" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <rect x="930.0609" y="292.56085" width="33.690797" height="33.690797" id="path"/>
+      <clipPath id="clip_path">
+        <use xl:href="#path"/>
+      </clipPath>
+      <g clip-path="url(#clip_path)">
+        <image xl:href="facebook-logo.png" width="128" height="128" transform="translate(930.0609 292.56085) scale(.26320935)"/>
+      </g>
+      <circle cx="833.6082" cy="285.5004" r="22.000434" fill="white"/>
+      <circle cx="833.6082" cy="285.5004" r="22.000434" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <rect x="825.6466" y="277.53885" width="15.923107" height="15.923107" id="path_2"/>
+      <clipPath id="clip_path_2">
+        <use xl:href="#path_2"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_2)">
+        <image xl:href="twitter-logo.png" width="128" height="128" transform="translate(825.6466 277.53885) scale(.12439927)"/>
+      </g>
+      <circle cx="887.5492" cy="416.6555" r="19.82687" fill="white"/>
+      <circle cx="887.5492" cy="416.6555" r="19.82687" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <rect x="880.3742" y="409.48053" width="14.349961" height="14.349961" id="path_3"/>
+      <clipPath id="clip_path_3">
+        <use xl:href="#path_3"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_3)">
+        <image xl:href="pinterest-logo.png" width="128" height="128" transform="translate(880.3742 409.48053) scale(.11210907)"/>
+      </g>
+      <circle cx="678.4031" cy="461.9985" r="44.49859" fill="#f2f3f5"/>
+      <circle cx="678.4031" cy="461.9985" r="44.49859" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 693.408 450.13225 L 686.6902 450.13225 C 685.7541 450.13225 685.0383 450.8481 685.0383 451.78416 L 685.0383 452.1696 C 685.0383 453.05063 685.7541 453.82153 686.6902 453.82153 L 693.408 453.82153 C 694.3441 453.82153 695.0599 453.05063 695.0599 452.1696 L 695.0599 451.78416 C 695.0599 450.8481 694.3441 450.13225 693.408 450.13225 Z" fill="#999"/>
+      <path d="M 663.3982 453.82153 L 680.7433 453.82153 C 681.62434 453.82153 682.3952 453.05063 682.3952 452.1696 L 682.3952 451.78416 C 682.3952 450.8481 681.62434 450.13225 680.7433 450.13225 L 663.3982 450.13225 C 662.4621 450.13225 661.7463 450.8481 661.7463 451.78416 L 661.7463 452.1696 C 661.7463 453.1057 662.4621 453.82153 663.3982 453.82153 Z" fill="#999"/>
+      <path d="M 693.408 470.1755 L 677.2743 470.1755 C 676.3933 470.1755 675.6224 470.89134 675.6224 471.8274 L 675.6224 472.21287 C 675.6224 473.14896 676.3933 473.8648 677.2743 473.8648 L 693.408 473.8648 C 694.3441 473.8648 695.0599 473.14896 695.0599 472.21287 L 695.0599 471.8274 C 695.0599 470.9464 694.3441 470.1755 693.408 470.1755 Z" fill="#999"/>
+      <path d="M 693.408 463.5128 L 686.6902 463.5128 C 685.7541 463.5128 685.0383 464.28367 685.0383 465.1647 L 685.0383 465.55014 C 685.0383 466.4862 685.7541 467.20206 686.6902 467.20206 L 693.408 467.20206 C 694.3441 467.20206 695.0599 466.4862 695.0599 465.55014 L 695.0599 465.1647 C 695.0599 464.2286 694.3441 463.5128 693.408 463.5128 Z" fill="#999"/>
+      <path d="M 682.3952 465.55014 L 682.3952 465.1647 C 682.3952 464.28367 681.62434 463.5128 680.7433 463.5128 L 669.235 463.5128 C 668.35394 463.5128 667.58305 464.28367 667.58305 465.1647 L 667.58305 465.55014 C 667.58305 466.4862 668.35394 467.20206 669.235 467.20206 L 680.7433 467.20206 C 681.6794 467.20206 682.3952 466.43116 682.3952 465.55014 Z" fill="#999"/>
+      <path d="M 693.408 456.795 L 680.9636 456.795 C 680.08255 456.795 679.31166 457.5108 679.31166 458.4469 L 679.31166 458.83234 C 679.31166 459.71337 680.08255 460.48426 680.9636 460.48426 L 693.408 460.48426 C 694.3441 460.48426 695.0599 459.71337 695.0599 458.83234 L 695.0599 458.4469 C 695.0599 457.5659 694.3441 456.795 693.408 456.795 Z" fill="#999"/>
+      <path d="M 676.8338 458.94247 L 676.8338 458.557 C 676.8338 457.676 676.0629 456.9051 675.1819 456.9051 L 663.3982 456.9051 C 662.4621 456.9051 661.7463 457.676 661.7463 458.557 L 661.7463 458.94247 C 661.7463 459.87856 662.4621 460.5944 663.3982 460.5944 L 675.1819 460.5944 C 676.11795 460.5944 676.8338 459.87856 676.8338 458.94247 Z" fill="#999"/>
+      <line x1="707.789" y1="428.5811" x2="815.6457" y2="305.92717" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <line x1="717.1003" y1="440.00663" x2="888.1151" y2="342.8177" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <line x1="721.8966" y1="452.5691" x2="863.0882" y2="421.95866" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 765.5412 347.00513 L 783.37085 326.7294 L 799.14085 340.5969 L 781.3112 360.8726 Z" fill="white"/>
+      <text transform="translate(781.6092 333.1256) rotate(48.672955)" fill="black">
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" fill="black" x=".338" y="11" textLength="16.324">API</tspan>
+      </text>
+      <path d="M 816.6301 420.26365 L 843.0171 414.54293 L 847.8903 437.02074 L 821.5033 442.74146 Z" fill="white"/>
+      <text transform="translate(825.3304 420.4888) rotate(12.232455)" fill="black">
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" fill="black" x=".338" y="11" textLength="16.324">API</tspan>
+      </text>
+      <path d="M 834.7902 359.89527 L 858.2642 346.5548 L 869.6283 366.5512 L 846.1543 379.8917 Z" fill="white"/>
+      <text transform="translate(848.0309 353.3723) rotate(29.60988)" fill="black">
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" fill="black" x=".338" y="11" textLength="16.324">API</tspan>
+      </text>
+      <circle cx="946.9063" cy="525.15625" r="26.156292" fill="white"/>
+      <circle cx="946.9063" cy="525.15625" r="26.156292" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <text transform="translate(930.9812 518.65625)" fill="black">
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" fill="black" x="2.34" y="11" textLength="27.17">DSP 1</tspan>
+      </text>
+      <line x1="721.7254" y1="472.18885" x2="916.3795" y2="517.9757" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 828.6522 485.5265 L 885.1113 498.8069 L 879.8449 521.19584 L 823.3858 507.91544 Z" fill="white"/>
+      <text transform="translate(829.3978 502.5292) rotate(-13.236581)" fill="black">
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" x=".372" y="11" textLength="34.177">API + R</tspan>
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" x="34.439" y="11" textLength="13.189">TB</tspan>
+      </text>
+      <circle cx="887.5492" cy="605.2637" r="38.04925" fill="white"/>
+      <circle cx="887.5492" cy="605.2637" r="38.04925" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <text transform="translate(862.1098 598.7637)" fill="black">
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" fill="black" x="10.484852" y="11" textLength="29.909">DSP 2</tspan>
+      </text>
+      <line x1="715.1211" y1="487.15033" x2="851.8629" y2="580.8185" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 791.2777 525.37835 L 839.1279 558.15576 L 826.13 577.13084 L 778.2798 544.3534 Z" fill="white"/>
+      <text transform="translate(785.2305 559.45514) rotate(-34.41116)" fill="black">
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" x=".372" y="11" textLength="34.177">API + R</tspan>
+        <tspan font-family="Proxima Nova" font-size="11" font-weight="500" x="34.439" y="11" textLength="13.189">TB</tspan>
+      </text>
+      <line x1="722.9016" y1="461.4985" x2="1039.0149" y2="461.4985" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" stroke-dasharray="1,5"/>
+    </g>
+  </g>
+</svg>

@@ -27,7 +27,7 @@ p, li {
 
 p {
     margin-bottom: 16px;
-    
+
     &.before-list {
         margin-bottom: 6px;
     }
@@ -75,32 +75,32 @@ p {
 }
 
 .navbar {
-    .navbar-brand {        
+    .navbar-brand {
         img {
             height: 24px;
             vertical-align: -5px;
         }
     }
-    
+
     .navbar-nav .nav-link {
         font-size: $nav-font-size;
         padding-left: 16px;
         padding-right: 16px;
-        
+
         &:last-of-type {
             padding-right: 0;
         };
     }
-    
+
     .btn {
         font-size: $nav-font-size;
         padding: 4px 15px;
-        
+
         &:hover {
             color: #3e84ce;
         }
     }
-    
+
     .sign-in-button-form {
         margin-right: 10px;
     }
@@ -120,13 +120,13 @@ p {
 .tile-1 {
     padding-top: 50px;
     padding-bottom: 20px;
-    
+
     h2 {
         font-size: 24px;
         font-weight: 300;
         margin-top: 0;
     }
-    
+
     img {
         margin-top: 40px;
         margin-bottom: 40px;
@@ -136,7 +136,7 @@ p {
 .tile-2 {
     border-bottom: 1px dotted #ccc;
     padding-top: 100px;
-    
+
 //    p {
 //        font-size: 28px;
 //        margin-bottom: 34px;
@@ -154,10 +154,10 @@ p {
         padding: 20px;
 //        box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
     }
-    
+
     p {
         font-size: 16px;
-    }    
+    }
 }
 
 .tile-4 {
@@ -172,3 +172,104 @@ p {
     width: 400px;
 }
 
+$table-border: 1px solid #eee;
+
+.line-item-table {
+    font-size: 12px;
+    width: 100%;
+    border-top: $table-border;
+    margin-left: 30px;
+
+    &.first-table {
+        margin-bottom: 60px;
+    }
+
+    td {
+        height: 36px;
+        border-bottom: $table-border;
+        text-align: left;
+    }
+
+    .li-icon {
+        width: 25px;
+        padding-left: 5px;
+    }
+
+    .li-name-col {
+        width: 114px;
+    }
+
+    .li-targeting-col {
+    }
+
+    .li-budget-col {
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    &.second-table {
+        .li-name-col {
+            text-transform: capitalize;
+            color: #ccc;
+        }
+    }
+}
+
+.empty-checkbox {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.channel-icon {
+    font-size: 14px;
+    vertical-align: -2px;
+}
+
+.category-label {
+    background-color: #f6f6f6;
+    padding: 2px 4px;
+    margin-right: 2px;
+    text-transform: lowercase;
+}
+
+.category-comma {
+    color: #aaa;
+}
+
+.budget {
+    .frequency {
+        color: #999;
+        font-weight: 200;
+    }
+}
+
+.dbm-color,
+.youtube-color {
+    color: #ee2920;
+}
+
+.facebook-color {
+    color: #455da7;
+}
+
+.twitter-color {
+    color: #31aaf3;
+}
+
+.linkedin-color {
+    color: #0075ba;
+}
+
+.instagram-color {
+    color: #865e4c;
+}
+
+.pinterest-color {
+    color: #d00007;
+}
+
+.yahoo-color {
+    color: #6a026e;
+}

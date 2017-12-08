@@ -6082,4 +6082,72 @@ p {
 .tech-stack-diagram {
   width: 400px; }
 
+.line-item-table {
+  font-size: 12px;
+  width: 100%;
+  border-top: 1px solid #eee;
+  margin-left: 30px; }
+  .line-item-table.first-table {
+    margin-bottom: 60px; }
+  .line-item-table td {
+    height: 36px;
+    border-bottom: 1px solid #eee;
+    text-align: left; }
+  .line-item-table .li-icon {
+    width: 25px;
+    padding-left: 5px; }
+  .line-item-table .li-name-col {
+    width: 114px; }
+  .line-item-table .li-budget-col {
+    text-align: right;
+    padding-right: 5px; }
+  .line-item-table.second-table .li-name-col {
+    text-transform: capitalize;
+    color: #ccc; }
+
+.empty-checkbox {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px; }
+
+.channel-icon {
+  font-size: 14px;
+  vertical-align: -2px; }
+
+.category-label {
+  background-color: #f6f6f6;
+  padding: 2px 4px;
+  margin-right: 2px;
+  text-transform: lowercase; }
+
+.category-comma {
+  color: #aaa; }
+
+.budget .frequency {
+  color: #999;
+  font-weight: 200; }
+
+.dbm-color,
+.youtube-color {
+  color: #ee2920; }
+
+.facebook-color {
+  color: #455da7; }
+
+.twitter-color {
+  color: #31aaf3; }
+
+.linkedin-color {
+  color: #0075ba; }
+
+.instagram-color {
+  color: #865e4c; }
+
+.pinterest-color {
+  color: #d00007; }
+
+.yahoo-color {
+  color: #6a026e; }
+
 /*# sourceMappingURL=hyper.css.map */
