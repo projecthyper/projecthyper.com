@@ -5996,6 +5996,9 @@ h2 {
   font-weight: 600;
   margin-top: 16px; }
 
+h3 {
+  font-size: 20px; }
+
 p, li {
   font-size: 20px;
   font-weight: 300; }
@@ -6062,7 +6065,13 @@ p {
   padding-top: 100px; }
 
 .tile-3 {
-  border-bottom: 1px dotted #ccc; }
+  background-color: #f9f9f9; }
+  .tile-3 .feature {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px; }
+  .tile-3 p {
+    font-size: 16px; }
 
 .tile-4 {
   border-bottom: 1px dotted #ccc; }
