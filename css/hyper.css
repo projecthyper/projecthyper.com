@@ -6026,6 +6026,17 @@ p {
   background-color: #f9f9f9;
   position: absolute; }
 
+.grey-circle {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  transform-origin: 0;
+  background-color: #f9f9f9;
+  position: absolute; }
+
+.line-item {
+  display: none; }
+
 .navbar .navbar-brand img {
   height: 24px;
   vertical-align: -5px; }
@@ -6048,6 +6059,10 @@ p {
   padding-bottom: 60px; }
   .tile.dark-background h1, .tile.dark-background h2, .tile.dark-background p {
     color: #fff; }
+  .tile.text-and-graphic-tile .col-md-6:first-of-type {
+    padding-right: 30px; }
+  .tile.text-and-graphic-tile .col-md-6:last-of-type {
+    padding-left: 30px; }
 
 .tile-1 {
   padding-top: 50px;
@@ -6077,7 +6092,7 @@ p {
   border-bottom: 1px dotted #ccc; }
 
 .tech-stack-diagram {
-  width: 500px; }
+  max-width: 500px; }
 
 .line-item-table {
   font-size: 12px;
