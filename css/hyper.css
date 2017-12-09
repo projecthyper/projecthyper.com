@@ -5992,7 +5992,7 @@ h1 {
   font-weight: 600; }
 
 h2 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 600;
   margin-top: 16px; }
 
@@ -6000,7 +6000,7 @@ h3 {
   font-size: 20px; }
 
 p, li {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300; }
 
 p {
@@ -6051,7 +6051,7 @@ p {
 
 .tile-1 {
   padding-top: 50px;
-  padding-bottom: 20px; }
+  padding-bottom: 30px; }
   .tile-1 h2 {
     font-size: 24px;
     font-weight: 300;
@@ -6076,19 +6076,16 @@ p {
 .tile-4 {
   border-bottom: 1px dotted #ccc; }
 
-.overview-diagram {
-  width: 453px; }
-
 .tech-stack-diagram {
-  width: 400px; }
+  width: 500px; }
 
 .line-item-table {
   font-size: 12px;
   width: 100%;
-  border-top: 1px solid #eee;
-  margin-left: 30px; }
+  border-top: 1px solid #ddd;
+  max-width: 500px; }
   .line-item-table.first-table {
-    margin-bottom: 60px; }
+    margin-bottom: 14px; }
   .line-item-table td {
     height: 36px;
     border-bottom: 1px solid #eee;
@@ -6097,13 +6094,20 @@ p {
     width: 25px;
     padding-left: 5px; }
   .line-item-table .li-name-col {
-    width: 114px; }
+    width: 100px; }
   .line-item-table .li-budget-col {
     text-align: right;
     padding-right: 5px; }
   .line-item-table.second-table .li-name-col {
     text-transform: capitalize;
     color: #ccc; }
+  .line-item-table.second-table tr:last-child td {
+    padding-left: 5px;
+    border-bottom: none; }
+
+.ai-arrow {
+  height: 90px;
+  margin-bottom: 10px; }
 
 .empty-checkbox {
   width: 12px;
@@ -6128,26 +6132,13 @@ p {
   color: #999;
   font-weight: 200; }
 
-.dbm-color,
-.youtube-color {
-  color: #ee2920; }
-
 .facebook-color {
   color: #455da7; }
 
 .twitter-color {
   color: #31aaf3; }
 
-.linkedin-color {
-  color: #0075ba; }
-
-.instagram-color {
-  color: #865e4c; }
-
 .pinterest-color {
   color: #d00007; }
-
-.yahoo-color {
-  color: #6a026e; }
 
 /*# sourceMappingURL=hyper.css.map */
