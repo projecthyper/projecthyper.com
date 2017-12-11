@@ -6017,9 +6017,21 @@ p {
   background: linear-gradient(150deg, #1d7fd0 15%, #90c9d4 70%, #56a7ea 94%);
   position: absolute; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .blue-stripes {
+    height: 886px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .blue-stripes {
+    height: 774px; } }
+@media (max-width: 767px) {
+  .blue-stripes {
+    height: 716px; } }
 .hero-screenshot {
   max-width: 100%; }
 
+@media (min-width: 1200px) {
+  .hero-screenshot {
+    max-width: 1000px; } }
 .navbar .navbar-brand img {
   height: 24px;
   vertical-align: -5px; }
@@ -6028,6 +6040,7 @@ p {
   padding-left: 16px;
   padding-right: 16px; }
   .navbar .navbar-nav .nav-link:last-of-type {
+    padding-left: 0;
     padding-right: 0; }
 .navbar .btn {
   font-size: 17px;
@@ -6047,6 +6060,14 @@ p {
   .tile.text-and-graphic-tile > .container > .row > div:last-of-type {
     padding-left: 30px; }
 
+@media (max-width: 1199px) {
+  .tile.text-and-graphic-tile > .container > .row > div:first-of-type {
+    padding-right: 15px; }
+  .tile.text-and-graphic-tile > .container > .row > div:last-of-type {
+    padding-left: 15px; } }
+@media (max-width: 991px) {
+  .tile.text-and-graphic-tile > .container > .row > div:first-of-type {
+    margin-bottom: 30px; } }
 .tile-1 {
   padding-top: 50px;
   padding-bottom: 30px; }
@@ -6058,10 +6079,29 @@ p {
     margin-top: 40px;
     margin-bottom: 40px; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 36px; }
+
+  .tile-1 h2 {
+    font-size: 28px; } }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 45px; }
+
+  .tile-1 h2 {
+    font-size: 26px;
+    line-height: 1.4; } }
 .tile-2 {
   border-bottom: 1px dotted #ccc;
   padding-top: 100px; }
 
+@media (max-width: 1199px) {
+  .tile-2 {
+    padding-top: 60px; } }
+@media (max-width: 991px) {
+  .tile-2 {
+    padding-top: 30px; } }
 .tile-3 {
   border-bottom: 1px dotted #ccc; }
 
@@ -6084,6 +6124,9 @@ p {
   margin-top: 55px;
   margin-left: 30px; }
 
+@media (max-width: 991px) {
+  .logos-col {
+    display: none; } }
 .line-item-diagram-col {
   min-height: 490px;
   text-align: center; }
@@ -6118,6 +6161,12 @@ p {
     .line-item-container.second-line-item-container .row:last-child .col {
       padding-left: 5px; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .line-item-container .li-name-col {
+    flex-basis: 80px; } }
+@media (max-width: 575px) {
+  .line-item-container .li-name-col {
+    flex-basis: 80px; } }
 .ai-arrow {
   height: 110px;
   margin-bottom: 10px; }

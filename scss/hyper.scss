@@ -1,8 +1,6 @@
 @import "customize";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-//$color-1: #56a7ea;
-
 $nav-font-size: 17px;
 
 h1 {
@@ -12,7 +10,6 @@ h1 {
 h2 {
     font-size: 22px;
     font-weight: 600;
-//    margin-top: 30px;
     margin-top: 16px;
 }
 
@@ -43,12 +40,32 @@ p {
     position: absolute;
 }
 
+@include media-breakpoint-only(lg) {
+    .blue-stripes {
+        height: 886px;
+    }
+}
+
+@include media-breakpoint-only(md) {
+    .blue-stripes {
+        height: 774px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .blue-stripes {
+        height: 716px;
+    }
+}
+
 .hero-screenshot {
     max-width: 100%;
 }
 
-.container {
-//    max-width: 900px !important;
+@include media-breakpoint-up(xl) {
+    .hero-screenshot {
+        max-width: 1000px;
+    }
 }
 
 .navbar {
@@ -65,6 +82,7 @@ p {
         padding-right: 16px;
 
         &:last-of-type {
+            padding-left: 0;
             padding-right: 0;
         };
     }
@@ -103,6 +121,25 @@ p {
     }
 }
 
+@include media-breakpoint-down(lg) {
+    .tile.text-and-graphic-tile > .container > .row {
+        > div:first-of-type {
+            padding-right: 15px;
+        }
+        > div:last-of-type {
+            padding-left: 15px;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .tile.text-and-graphic-tile > .container > .row {
+        > div:first-of-type {
+            margin-bottom: 30px;
+        }
+    }
+}
+
 .tile-1 {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -119,9 +156,42 @@ p {
     }
 }
 
+@include media-breakpoint-only(md) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .tile-1 h2 {
+        font-size: 28px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .tile-1 h2 {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+}
+
 .tile-2 {
     border-bottom: 1px dotted #ccc;
     padding-top: 100px;
+}
+
+@include media-breakpoint-down(lg) {
+    .tile-2 {
+        padding-top: 60px;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .tile-2 {
+        padding-top: 30px;
+    }
 }
 
 .tile-3 {
@@ -152,6 +222,12 @@ p {
     padding-left: 30px;
     margin-top: 55px;
     margin-left: 30px;
+}
+
+@include media-breakpoint-down(md) {
+    .logos-col {
+        display: none;
+    }
 }
 
 .line-item-diagram-col {
@@ -206,6 +282,18 @@ p {
                 padding-left: 5px;
             }
         }
+    }
+}
+
+@include media-breakpoint-only(lg) {
+    .line-item-container .li-name-col {
+        flex-basis: 80px;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .line-item-container .li-name-col {
+        flex-basis: 80px;
     }
 }
 
