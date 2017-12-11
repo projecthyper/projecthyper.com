@@ -6078,10 +6078,11 @@ p {
   max-width: 500px; }
 
 .previous-company-logos {
-  max-width: 175px;
+  max-width: 200px;
   border-left: 1px solid #eee;
   padding-left: 30px;
-  margin-top: 55px; }
+  margin-top: 55px;
+  margin-left: 30px; }
 
 .line-item-diagram-col {
   min-height: 490px;
