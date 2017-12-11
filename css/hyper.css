@@ -6018,10 +6018,7 @@ p {
   position: absolute; }
 
 .hero-screenshot {
-  max-width: 1000px; }
-
-.line-item {
-  display: none; }
+  max-width: 100%; }
 
 .navbar .navbar-brand img {
   height: 24px;
@@ -6066,45 +6063,25 @@ p {
   padding-top: 100px; }
 
 .tile-3 {
-  background-color: #f9f9f9; }
-  .tile-3 .feature {
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px; }
-  .tile-3 p {
-    font-size: 16px; }
+  border-bottom: 1px dotted #ccc; }
 
 .tile-4 {
   border-bottom: 1px dotted #ccc; }
 
+.tile-5 p {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-bottom: 3px; }
+
 .tech-stack-diagram {
   max-width: 500px; }
 
-.line-item-table {
-  font-size: 12px;
-  width: 100%;
-  border-top: 1px solid #ddd;
-  max-width: 500px; }
-  .line-item-table.first-table {
-    margin-bottom: 14px; }
-  .line-item-table td {
-    height: 36px;
-    border-bottom: 1px solid #eee;
-    text-align: left; }
-  .line-item-table .li-icon {
-    width: 25px;
-    padding-left: 5px; }
-  .line-item-table .li-name-col {
-    width: 100px; }
-  .line-item-table .li-budget-col {
-    text-align: right;
-    padding-right: 5px; }
-  .line-item-table.second-table .li-name-col {
-    text-transform: capitalize;
-    color: #ccc; }
-  .line-item-table.second-table tr:last-child td {
-    padding-left: 5px;
-    border-bottom: none; }
+.previous-company-logos {
+  max-width: 175px;
+  border-left: 1px solid #eee;
+  padding-left: 30px;
+  margin-top: 55px; }
 
 .line-item-diagram-col {
   min-height: 490px;

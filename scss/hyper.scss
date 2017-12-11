@@ -44,28 +44,7 @@ p {
 }
 
 .hero-screenshot {
-    max-width: 1000px;
-}
-
-.line-item {
-    display: none;
-}
-
-.nav-and-tile-container {
-//    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-//    background-image: linear-gradient(15deg, #09203f 0%, #537895 100%);
-//    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
-//    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-//    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-//    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
-//    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-//    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
-//    background-colZr: #56a7ea;
-//    background-image: url(../images/713.jpg);
-//    background-image: url(../images/blue-pattern-7.svg);
-//    background-repeat: no-repeat;
-//    background-size: cover;
-//    background-position: left center;
+    max-width: 100%;
 }
 
 .container {
@@ -143,86 +122,35 @@ p {
 .tile-2 {
     border-bottom: 1px dotted #ccc;
     padding-top: 100px;
-
-//    p {
-//        font-size: 28px;
-//        margin-bottom: 34px;
-//    }
 }
 
 .tile-3 {
-    background-color: #f9f9f9;
-//    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
 
-    .feature {
-//        background-color: #eee;
-        background-color: white;
-        border-radius: 5px;
-        padding: 20px;
-//        box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
-    }
-
-    p {
-        font-size: 16px;
-    }
 }
 
 .tile-4 {
     border-bottom: 1px dotted #ccc;
 }
 
+.tile-5 {
+    p {
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+}
+
 .tech-stack-diagram {
     max-width: 500px;
 }
 
-.left-col {
-
-}
-
-.line-item-table {
-    font-size: 12px;
-    width: 100%;
-    border-top: 1px solid #ddd;
-    max-width: 500px;
-
-    &.first-table {
-        margin-bottom: 14px;
-    }
-
-    td {
-        height: 36px;
-        border-bottom: 1px solid #eee;;
-        text-align: left;
-    }
-
-    .li-icon {
-        width: 25px;
-        padding-left: 5px;
-    }
-
-    .li-name-col {
-        width: 100px;
-    }
-
-    .li-targeting-col {
-    }
-
-    .li-budget-col {
-        text-align: right;
-        padding-right: 5px;
-    }
-
-    &.second-table {
-        .li-name-col {
-            text-transform: capitalize;
-            color: #ccc;
-        }
-
-        tr:last-child td {
-            padding-left: 5px;
-            border-bottom: none;
-        }
-    }
+.previous-company-logos {
+    max-width: 175px;
+    border-left: 1px solid #eee;
+    padding-left: 30px;
+    margin-top: 55px;
 }
 
 .line-item-diagram-col {
