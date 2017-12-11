@@ -29,7 +29,7 @@
                                 <a class="nav-item nav-link" href="#technology">Technology</a>
                                 <a class="nav-item nav-link" href="#team">Team</a>
                             </div>
-                            <div class="navbar-nav ml-auto mr-sm-3">
+                            <div class="navbar-nav ml-auto mr-sm-3 sign-in-button-form-nav">
                                 <form class="form-inline my-2 my-lg-0 sign-in-button-form">
                                     <a href="http://demo.projecthyper.com" class="btn btn-outline-light btn-sm my-2 my-sm-0">Sign In</a>
                                 </form>
@@ -316,6 +316,19 @@
                             }, 1300);
                         }
                     }
+                });
+
+//                $('.navbar-toggler').on('click', function () {
+//                    var button = $(this);
+//                    console.log('toggle: ' + button.attr('aria-expanded'));
+//                })
+
+                $('.navbar-collapse').on('show.bs.collapse', function () {
+                    $('.blue-stripes').addClass('with-open-menu');
+                });
+
+                $('.navbar-collapse').on('hide.bs.collapse', function () {
+                    $('.blue-stripes').removeClass('with-open-menu');
                 });
             });
         </script>

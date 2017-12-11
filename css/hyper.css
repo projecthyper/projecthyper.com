@@ -6029,16 +6029,24 @@ p {
     height: 774px; } }
 @media (max-width: 767px) {
   .blue-stripes {
-    height: 716px; } }
+    height: 716px; }
+    .blue-stripes.with-open-menu {
+      height: 874px; } }
 @media (max-width: 575px) {
   .blue-stripes {
-    height: 676px; } }
+    height: 676px; }
+    .blue-stripes.with-open-menu {
+      height: 834px; } }
 @media (min-width: 520px) and (max-width: 565px) {
   .blue-stripes {
-    height: 722px; } }
+    height: 722px; }
+    .blue-stripes.with-open-menu {
+      height: 880px; } }
 @media (max-width: 470px) {
   .blue-stripes {
-    height: 656px; } }
+    height: 656px; }
+    .blue-stripes.with-open-menu {
+      height: 814px; } }
 .hero-screenshot {
   max-width: 100%; }
 
@@ -6063,6 +6071,12 @@ p {
 .navbar .sign-in-button-form {
   margin-right: 10px; }
 
+@media (max-width: 767px) {
+  .navbar .navbar-nav .nav-link:last-of-type {
+    padding-left: 16px;
+    padding-right: 16px; }
+  .navbar .sign-in-button-form-nav {
+    display: none; } }
 .tile {
   padding-top: 60px;
   padding-bottom: 60px; }

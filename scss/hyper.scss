@@ -62,24 +62,40 @@ p {
 @include media-breakpoint-down(sm) {
     .blue-stripes {
         height: 716px;
+
+        &.with-open-menu {
+            height: 874px;
+        }
     }
 }
 
 @include media-breakpoint-down(xs) {
     .blue-stripes {
         height: 676px;
+
+        &.with-open-menu {
+            height: 834px;
+        }
     }
 }
 
 @media (min-width: 520px) and (max-width: 565px) {
     .blue-stripes {
         height: 722px;
+
+        &.with-open-menu {
+            height: 880px;
+        }
     }
 }
 
 @media (max-width: 470px) {
     .blue-stripes {
         height: 656px;
+
+        &.with-open-menu {
+            height: 814px;
+        }
     }
 }
 
@@ -110,7 +126,7 @@ p {
         &:last-of-type {
             padding-left: 0;
             padding-right: 0;
-        };
+        }
     }
 
     .btn {
@@ -124,6 +140,21 @@ p {
 
     .sign-in-button-form {
         margin-right: 10px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .navbar {
+        .navbar-nav .nav-link {
+            &:last-of-type {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+        }
+
+        .sign-in-button-form-nav {
+            display: none;
+        }
     }
 }
 
