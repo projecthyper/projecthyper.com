@@ -35,7 +35,7 @@
                                 </form>
                             </div>
                             <div class="navbar-nav">
-                                <a class="nav-item nav-link" href="mailto:hello@hyperplane.io">Contact</a>
+                                <a class="nav-item nav-link contact-link" href="mailto:hello@hyperplane.io">Contact</a>
                             </div>
                         </div>
                     </nav>
@@ -294,34 +294,30 @@
 
         <script>
             $(function () {
-                var isPlanOpen = false;
+                var lineItems = $('.second-line-item-container .row-container');
+                var loading = $('.plan-loading-icon-container');
 
                 new Waypoint({
                     element: $('.ai-arrow')[0],
                     offset: 'bottom-in-view',
                     handler: function (direction) {
-                        if (!isPlanOpen) {
-                            isPlanOpen = true;
-                            var lineItems = $('.second-line-item-container .row-container');
+                        if (direction === 'down') {
                             setTimeout(function () {
-                                $('.plan-loading-icon-container').hide();
-                                if (direction === 'down') {
-                                    lineItems.each(function (index) {
-                                        var itemContainer = $(this);
-                                        setTimeout(function () {
-                                            itemContainer.show('slide', {direction: 'left', easing: 'easeInOutCubic'}, 200);
-                                        }, index * 150);
-                                    });
-                                }
+                                loading.hide();
+                                lineItems.each(function (index) {
+                                    var itemContainer = $(this);
+                                    setTimeout(function () {
+                                        itemContainer.show('slide', {direction: 'left', easing: 'easeInOutCubic'}, 200);
+                                    }, index * 150);
+                                });
                             }, 1300);
+                        }
+                        else if (direction === 'up') {
+                            lineItems.hide();
+                            loading.show();
                         }
                     }
                 });
-
-//                $('.navbar-toggler').on('click', function () {
-//                    var button = $(this);
-//                    console.log('toggle: ' + button.attr('aria-expanded'));
-//                })
 
                 $('.navbar-collapse').on('show.bs.collapse', function () {
                     $('.blue-stripes').addClass('with-open-menu');

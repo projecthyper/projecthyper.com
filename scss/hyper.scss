@@ -102,11 +102,30 @@ p {
 
 .hero-screenshot {
     max-width: 100%;
+
 }
 
 @include media-breakpoint-up(xl) {
     .hero-screenshot {
-        max-width: 1000px;
+        height: 580px;
+    }
+}
+
+@include media-breakpoint-only(lg) {
+    .hero-screenshot {
+        height: 540px;
+    }
+}
+
+@include media-breakpoint-only(md) {
+    .hero-screenshot {
+        height: 400px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .hero-screenshot {
+        max-height: 296px;
     }
 }
 
@@ -123,7 +142,7 @@ p {
         padding-left: 16px;
         padding-right: 16px;
 
-        &:last-of-type {
+        &.contact-link {
             padding-left: 0;
             padding-right: 0;
         }
@@ -146,7 +165,7 @@ p {
 @include media-breakpoint-down(sm) {
     .navbar {
         .navbar-nav .nav-link {
-            &:last-of-type {
+            &.contact-link {
                 padding-left: 16px;
                 padding-right: 16px;
             }
